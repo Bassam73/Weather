@@ -115,8 +115,8 @@ async function displayData(x) {
         </div>
         <div class="col-md-4 text-center">
         <div class="card">
-          <div class="card-header card2-header">${localDay3}</div>
-          <div class="card-body card2">
+          <div class="card-header card1-header">${localDay3}</div>
+          <div class="card-body card1-body">
             <div class="caption2 py-2">
               <img src="${data.forecast.forecastday[2].day.condition.icon}" class"w-100">
               <p class="fs-3 fw-bold">${data.forecast.forecastday[2].day.maxtemp_c}&deg;C</p>
